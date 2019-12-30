@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+
+    <EditText
+        android:id="@+id/et_eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Event Name"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_eventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Event Date"
+        android:gravity="center"
+        android:focusableInTouchMode="false"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_eventBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Event Budget"
+        android:gravity="center"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_createEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#CDE1CF"
+        android:background="#619CC1"
+        android:layout_marginTop="28dp"
+        android:text="Create"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

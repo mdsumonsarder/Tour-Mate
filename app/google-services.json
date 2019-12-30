@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "244009050873",
+    "firebase_url": "https://tour-mate-3bd52.firebaseio.com",
+    "project_id": "tour-mate-3bd52",
+    "storage_bucket": "tour-mate-3bd52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244009050873:android:1cb9aeaac962a434",
+        "android_client_info": {
+          "package_name": "com.dualbrotech.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244009050873-gnfp9rmst8u15gipqiudog4d9o9nrf0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbJFg1BLipQwt6cyndStFD2mlLLWNpjuc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

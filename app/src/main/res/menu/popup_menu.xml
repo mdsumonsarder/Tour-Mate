@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add_money"
+        android:title="Add Money" />
+    <item
+        android:id="@+id/menu_lend_money"
+        android:title="Lend Money" />
+</menu>

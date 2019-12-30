@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#6EC174"
+    tools:context="com.dualbrotech.tourmate.UI.LoginActivity">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email"
+        android:layout_marginBottom="9dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/et_password"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:id="@+id/et_email"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:gravity="center"
+        android:drawableLeft="@drawable/pas"
+        android:ems="10"
+        android:id="@+id/et_password"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/et_email"
+        android:layout_alignEnd="@+id/et_email"/>
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_signIn"
+        android:textAllCaps="false"
+        android:text="Sign in"
+        android:textColor="#CDE1CF"
+        android:background="#619CC1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_password"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:text="Not registered yet?"
+        android:layout_marginTop="19dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_signIn"/>
+
+    <TextView
+        android:id="@+id/tv_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:onClick="signUp"
+        android:text="Sign up"
+        android:textColor="#CDE1CF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/person" />
+
+</RelativeLayout>
